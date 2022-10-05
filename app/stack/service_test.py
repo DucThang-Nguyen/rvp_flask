@@ -106,7 +106,7 @@ def test_delete_by_id_fails(db: SQLAlchemy):
     """
     with pytest.raises(BadRequest, match="Stack id 1 does not exist"):
         StackService.delete_by_id(stack_id=1)
-
+        
 
 def test_add_operand_to_stack_works(db: SQLAlchemy):
     """
