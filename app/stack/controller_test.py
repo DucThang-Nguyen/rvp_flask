@@ -105,7 +105,6 @@ class TestStackResource:
         "add_operand_to_stack",
         side_effect=BadRequest("An exception")
     )
-    @patch.object(StackService, "delete_by_id", lambda: None)
     def test_post_fails(self, mocked_function, client: FlaskClient):
         """Test post endpoint fails"""
         with client:
