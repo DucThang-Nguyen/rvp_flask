@@ -1,0 +1,15 @@
+# Environment file
+.env
+
+# Database file
+*.db
+
+# Virtual environment
+venvat
+
+# Cache
+*.pytest_cache
+*__pycache__*
+
+# Pycharm folder
+.idea
