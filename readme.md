@@ -1,8 +1,9 @@
 ## Usage
-### Create virtual environment and activate virtual environment
+### Create virtual environment and activate it and install requirements
 ```bash
 python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ### To launch the API
