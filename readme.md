@@ -1,5 +1,5 @@
 ## Usage
-## Create virtual environment and activate virtual environment
+### Create virtual environment and activate virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate
